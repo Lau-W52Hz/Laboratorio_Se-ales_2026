@@ -17,7 +17,7 @@ respuesta de un sistema discreto ante una entrada determinada.<br>
 dominio de la frecuencia.<br> 
 
 ## PARTE A
-
+Para la primera parte de el codigo es fundamental 
 ### ALGORITMO 
 
 ### CODIGO
