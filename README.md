@@ -26,6 +26,9 @@ Para esta parte del laboratorio se juntaron los 2 números de cédula de las dos
 x[n]= {1, 0, 7, 8, 3, 6, 7, 2, 2, 9, 1, 0, 3, 2, 9, 3, 7, 8, 7, 9}<br>
 h[n]={5, 6, 0, 0, 8, 5, 4, 5, 6, 0, 0, 5, 9, 2}<br>
 
+El resultado fue el siguiente:
+
+
 ### ALGORITMO 
 
 ### CODIGO
