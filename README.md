@@ -287,7 +287,7 @@ Estos estadísticos en frecuencia muestran cómo están distribuidas las frecuen
 <img width="404" height="304" alt="image" src="https://github.com/user-attachments/assets/f553b5e3-b9b3-45f7-93e6-b47895ca3a7a" /><br>
 El histograma muestra la distribución de las frecuencias obtenidas del análisis. Se observa que las frecuencias están distribuidas a lo largo de todo el rango analizado, lo cual ocurre porque la FFT genera frecuencias positivas y negativas alrededor de 0 Hz. Por eso las barras aparecen de forma uniforme en el histograma. <br>
 
-
+Trabajado en Jupyter: http://localhost:8888/doc/tree/lab2pds.ipynb 
 
 # PREGUNTAS
 
