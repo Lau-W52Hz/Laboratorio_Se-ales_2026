@@ -28,6 +28,9 @@ h[n]={5, 6, 0, 0, 8, 5, 4, 5, 6, 0, 0, 5, 9, 2}<br>
 
 El resultado fue el siguiente:
 
+<img width="465" height="853" alt="image" src="https://github.com/user-attachments/assets/5d68136a-fc85-4548-9e7b-9e302f04096e" />
+
+
 
 ### ALGORITMO 
 
