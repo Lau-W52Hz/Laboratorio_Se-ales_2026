@@ -157,6 +157,7 @@ fs=4fN
 
 ``` 
 ### ALGORITMO
+<img width="450" height="726" alt="image" src="https://github.com/user-attachments/assets/eb6ec46e-e936-4905-9995-cab73f1acf3c" />
 
 ### CODIGO 
 ```
