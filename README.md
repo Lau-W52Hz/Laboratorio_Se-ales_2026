@@ -69,7 +69,7 @@ una señal coseno <br>
 una señal seno <br> 
 Ambas tienen la misma frecuencia pero están desfasadas 90°, por lo que la correlación alrededor del origen es pequeña <br>
 ### ALGORITMO 
-<img width="265" height="653" alt="image" src="https://github.com/user-attachments/assets/5d68136a-fc85-4548-9e7b-9e302f04096e" />
+<img width="465" height="853" alt="image" src="https://github.com/user-attachments/assets/5d68136a-fc85-4548-9e7b-9e302f04096e" />
 
 ### CODIGO 
 ```
