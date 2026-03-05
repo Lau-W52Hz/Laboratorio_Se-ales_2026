@@ -31,8 +31,7 @@ El resultado fue el siguiente:
 <img width="465" height="853" alt="image" src="https://github.com/Lau-W52Hz/Laboratorio_Se-ales_2026/blob/main/Convolucionmanual.jpeg "/>
 
 Para representación gráfica y secuencial se obtuvo lo siguente
-
-
+<img width="465" height="853" alt="image" src="https://github.com/Lau-W52Hz/Laboratorio_Se-ales_2026/blob/main/h.jpeg"/>
 
 
 ### ALGORITMO 
