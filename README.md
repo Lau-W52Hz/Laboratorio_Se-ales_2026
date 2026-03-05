@@ -63,6 +63,11 @@ Para n=0,1,2,3,4,5,6,7,8
 |7 | 0,707 | -0,707 |
 |8 | 1 | 0 |
 
+#### Correlación Cruzada 
+La correlación cruzada permite medir la similitud entre dos señales para diferentes desplazamientos, en este caso se comparan: <br>
+una señal coseno <br>
+una señal seno <br> 
+Ambas tienen la misma frecuencia pero están desfasadas 90°, por lo que la correlación alrededor del origen es pequeña <br>
 ### ALGORITMO 
 
 ### CODIGO 
