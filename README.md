@@ -48,7 +48,7 @@ X2[n]=Sen (2𝜋(100)(0,00125)n)
 entonces
 
 X1[n]=Cos (2𝜋(0,125)n) 
-X2[n]=Cos (2𝜋(0,125)n)
+X2[n]=Sen (2𝜋(0,125)n)
 
 ```
 Para n=0,1,2,3,4,5,6,7,8
@@ -137,7 +137,7 @@ En la Parte C se generó una señal biológica tipo EOG (Electrooculografía) ut
 #### Frecuencia de Nyquist 
 La frecuencia de Nyquist corresponde a la mitad de la frecuencia de muestreo y representa la frecuencia máxima que puede representarse correctamente sin producir aliasing.<br>
 ```
-fN​=2fs​​
+fN​=fs/2​​
 ```
 Teniendo en cuenta que la frecuencia de muestreo utilizada es
 ```
@@ -148,14 +148,7 @@ fN=2000/2
 
 Esto significa que el sistema puede representar correctamente frecuencias de hasta 1000 Hz.
 ```
-### Digitalización de la señal
-Para garantizar una correcta representación de la señal, se utilizó una frecuencia de muestreo igual a cuatro veces la frecuencia de Nyquist Tal como lo indica la guia.<br>
-```
-fs=4fN
-𝑓𝑠=4(500)
-𝑓𝑠=2000 𝐻𝑧
 
-``` 
 ### ALGORITMO
 <img width="450" height="726" alt="image" src="https://github.com/user-attachments/assets/eb6ec46e-e936-4905-9995-cab73f1acf3c" />
 
