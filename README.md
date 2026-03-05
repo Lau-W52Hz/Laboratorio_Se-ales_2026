@@ -1,1 +1,1 @@
-# Laboratorio_Se-ales_2026
+# Laboratorio_Se-ales_2026_Convolucion
