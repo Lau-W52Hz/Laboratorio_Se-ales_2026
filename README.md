@@ -256,8 +256,8 @@ Este código calcula algunos estadísticos de las frecuencias como la media, la 
 <img width="416" height="307" alt="image" src="https://github.com/user-attachments/assets/bee8dac4-2862-4a0f-b38d-414b489a9bd9" /><br>
 La gráfica muestra la señal EOG en el dominio del tiempo, donde se observa cómo cambia la amplitud a lo largo de las muestras. La señal presenta variaciones positivas y negativas alrededor de cero, con algunos picos más altos que pueden estar relacionados con movimientos de los ojos. En general, se ve que la señal no es constante, sino que cambia continuamente, lo cual es normal en este tipo de señales biológicas. <br>
 
-|--- Estadísticos de la señal ---|
-|----------------------------------|
+|--- Estadísticos de la señal ---| datos |
+|----------------------------------|------|
 | Media |-0.04412532893199532 |
 | Mediana| -0.04079738832660951 |
 | Desviación estándar | 0.1438798131251786 |
@@ -275,8 +275,8 @@ La gráfica muestra la Transformada de Fourier de la señal EOG, donde se observ
 <img width="405" height="299" alt="image" src="https://github.com/user-attachments/assets/2ba96fd6-c2c7-4e7b-a599-bf56f093fce4" /><br>
 La gráfica muestra cómo se distribuye la potencia de la señal EOG en las diferentes frecuencias. Se observa que la mayor potencia está en las frecuencias bajas, lo que indica que la mayor parte de la información de la señal se encuentra en esa zona. A medida que aumenta la frecuencia, la potencia disminuye, lo que significa que hay menos componentes de alta frecuencia en la señal. Esto es típico en señales EOG, ya que los movimientos oculares suelen generar variaciones lentas en la señal.<br>
 
-|--- Estadísticos en frecuencia ---|
-|----------------------------------|
+|--- Estadísticos en frecuencia ---| Datos|
+|----------------------------------|-----|
 | Frecuencia media | -0.1 |
 | Frecuencia mediana |  -0.1 |
 | Desviación estándar | 577.3502663028744 |
