@@ -1,4 +1,4 @@
-# Laboratorio_Se-ales_2026_Convolucion
+# Laboratorio 2 CONVOLUCION
 Objetivo General: Reconocer la importancia de la aplicación de herramientas
 matemáticas como la convolución y correlación en el área de procesamiento de
 señales.
