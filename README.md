@@ -14,3 +14,42 @@ respuesta de un sistema discreto ante una entrada determinada.
 
 *Aplicar la Transformada de Fourier como herramienta de análisis en el
 dominio de la frecuencia.
+## PARTE A
+
+### ALGORITMO 
+
+### CODIGO
+
+## PARTE B
+En esta parte de la práctica se trabajará con dos señales discretas definidas mediante funciones trigonométricas: una señal coseno y una señal seno. A partir del período de muestreo dado por la guia, se calcularán los valores de ambas señales para un conjunto determinado de muestras.<br>
+Posteriormente, se aplicará la correlación cruzada entre las dos señales con el objetivo de analizar el grado de similitud entre ellas y observar cómo cambia esta relación cuando una señal se desplaza respecto a la otra.<br>
+Finalmente, se realizará la representación gráfica de la correlación obtenida y se describirá la secuencia resultante, permitiendo interpretar el comportamiento de las señales y comprender la utilidad de la correlación cruzada en el procesamiento digital de señales.
+
+#### SEÑALES 
+
+```
+x1[nTs​]=cos(2π100nTs​)
+𝑥2[𝑛𝑇𝑠]=sin(2𝜋100𝑛𝑇𝑠)
+```
+con 
+```
+Ts=1.25ms= 0,00125s 
+```
+y
+```
+X1[n]=Cos (2𝜋.100.nn.0,00125) 
+100.0.00125= 0,125
+
+entonces
+X1[n]=Cos (2𝜋(0,125)n) 
+X2[n]=Cos (2𝜋(0,125)n) 
+```
+### ALGORITMO 
+
+### CODIGO 
+
+## PARTE C
+
+### ALGORITMO
+
+### CODIGO 
