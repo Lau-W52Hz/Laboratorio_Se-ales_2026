@@ -17,7 +17,12 @@ respuesta de un sistema discreto ante una entrada determinada.<br>
 dominio de la frecuencia.<br> 
 
 ## PARTE A
-Para la primera parte de el codigo es fundamental 
+Para la primera parte del laboratorio , teniendo en cuenta el sistema h[n] = {dígitos del código del carnet estudiantil } y la señal x[n] = {dígitos de la cédula de ciudadanía} cada integrante del grupo, realizará lo siguiente:
+1.Encontrar la señal 𝑦[𝑛] resultante de la convolución usando sumatorias (a mano).
+Para esta parte del laboratorio se juntaron los 2 números de cédula de las dos integrantes de manera consecutiva para la definición de la señal  x[n], de igual manera se realizó el mismo procedimiento con los códigos estudiantiles para los valores de h[n]. 
+x[n]= {1, 0, 7, 8, 3, 6, 7, 2, 2, 9, 1, 0, 3, 2, 9, 3, 7, 8, 7, 9}
+h[n]={5, 6, 0, 0, 8, 5, 4, 5, 6, 0, 0, 5, 9, 2}
+
 ### ALGORITMO 
 
 ### CODIGO
