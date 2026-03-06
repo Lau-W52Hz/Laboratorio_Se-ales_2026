@@ -76,6 +76,66 @@ x = np.array([1, 0, 7, 8, 3, 6, 7, 2, 2, 9, 1, 0, 3, 2, 9, 3, 7, 8, 7, 9])
 y = np.convolve(h, x, mode='full')
 ```
 Se realizo la definición de h(n) y x(n), y su convolución se realizo con np.convolve y al usar el modo=full significa que se realiza toda la operación mencionada
+```
+print("h(n) =", h)
+print("x(n) =", x)
+print("\n" + "="*50)
+print("\nResultado De La Convolución:")
+```
+Con la función print se imprimen las señales, se adicionan lineas decorativas y finalmente se muestra el resultado de la convolución calculada
+```
+print("y(n) = {", end="")
+for i, valor in enumerate(y):
+    if i < len(y) - 1:
+        print(f"{int(valor)}, ", end="")
+    else:
+        print(f"{int(valor)}", end="")
+print("}")
+
+```
+
+
+Se recorre el vector y que dentro de sí contiene el resultado de la convolución para posteriormente ser impreso  en pantalla, luego haciendo uso de la función for se recorren los elementos del vector obteniendo su posición i y su valor.
+```
+plt.figure(figsize=(12, 10))
+# Para h(n)
+plt.subplot(3, 1, 1)
+plt.stem(range(len(h)), h, basefmt='k-', linefmt='b-', markerfmt='bo')
+plt.title('h(n) = {5, 6, 0, 0, 8, 5, 4, 5, 6, 0, 0, 5, 9, 2}')
+plt.xlabel('n')
+plt.ylabel('Amplitud')
+plt.grid(True, alpha=0.3)
+plt.xlim(-1, len(h))
+```
+Para graficar la señal discreta h(n) se genera una ventana en la que se pueda visualizar la gráfica,  posterior a eso se divide la ventana en tres partes y se elige la primera para dibujar la señal. Finalmente se agrega etiquetas de Los ejes y el título 
+```
+# Para x(n)
+plt.subplot(3, 1, 2)
+plt.stem(range(len(x)), x, basefmt='k-', linefmt='g-', markerfmt='go')
+plt.title('x(n) = {1, 0, 7, 8, 3, 6, 7, 2, 2, 9, 1, 0, 3, 2, 9, 3, 7, 8, 7, 9}')
+plt.xlabel('n')
+plt.ylabel('Amplitud')
+plt.grid(True, alpha=0.3)
+plt.xlim(-1, len(x))
+
+```
+Esta sección del código es utilizada para graficar la señal x(n) ,teniendo en cuenta lo anterior nombrado ,se selecciona la segunda posición de las tres gráficas para mostrar esta señal,  finalmente se agregan las etiquetas de Los ejes y el título.
+```
+# Subplot para y1(n) - convolución
+plt.subplot(3, 1, 3)
+plt.stem(range(len(y)), y, basefmt='k-', linefmt='r-', markerfmt='ro')
+plt.title('y(n) = h(n) * x(n) (Convolución)')
+plt.xlabel('n')
+plt.ylabel('Amplitud')
+plt.grid(True, alpha=0.3)
+plt.xlim(-1, len(y))
+
+plt.tight_layout()
+plt.show()
+
+```
+Para graficar la señal y n obtenida de la convolución entre h(n) & x(n) selecciona la tercera gráfica de la ventana, posterior a eso se dibuja la señal en donde el eje horizontal corresponde a n y el vertical a la amplitud, Por último se agregan las etiquetas de los ejes y el título,  además se agrega plt.tight_layout() para evitar que las tres gráficas se superpongan.
+
 
 ## PARTE B
 En esta parte de la práctica se trabajará con dos señales discretas definidas mediante funciones trigonométricas: una señal coseno y una señal seno. A partir del período de muestreo dado por la guia, se calcularán los valores de ambas señales para un conjunto determinado de muestras.<br>
@@ -341,3 +401,4 @@ Trabajado en Jupyter: http://localhost:8888/doc/tree/lab2pds.ipynb
 
 ## 3. ¿Para qué sirve la correlación cruzada?
 La correlación cruzada es una herramienta ampliamente utilizada en el procesamiento digital de señales para analizar la relación entre dos señales. Permite detectar similitudes, identificar retardos temporales, sincronizar señales y reconocer patrones. En aplicaciones biomédicas puede utilizarse para comparar señales fisiológicas como electrocardiogramas, electroencefalogramas o señales musculares.<br>
+## CONCLUSIONES
