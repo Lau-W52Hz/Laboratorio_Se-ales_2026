@@ -46,7 +46,7 @@ Para la obtención de una gráfica mas precisa se opto por realizar las escalas 
 3.Encontrar la señal 𝑦[𝑛] resultante de la convolución usando Python.<br>
 
 Haciendo uso de Pyton se obtuvo los siguentes resultados:
-'''
+```
 h(n) = [5 6 0 0 8 5 4 5 6 0 0 5 9 2]
 x(n) = [1 0 7 8 3 6 7 2 2 9 1 0 3 2 9 3 7 8 7 9]
 
@@ -55,7 +55,7 @@ x(n) = [1 0 7 8 3 6 7 2 2 9 1 0 3 2 9 3 7 8 7 9]
 Resultado De La Convolución:
 y(n) = {5, 6, 35, 82, 71, 53, 131, 156, 120, 187, 239, 149, 126, 226, 273, 233, 211, 267, 268, 221, 256, 258, 220, 209, 192, 188, 187, 134, 109, 121, 124, 95, 18}
 
-'''
+```
 
 
 ### ALGORITMO 
