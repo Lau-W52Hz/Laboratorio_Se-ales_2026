@@ -30,7 +30,7 @@ El resultado fue el siguiente:
 
 <img width="465" height="853" alt="image" src="https://github.com/Lau-W52Hz/Laboratorio_Se-ales_2026/blob/main/Convolucionmanual.jpeg "/>
 
-Para representación gráfica y secuencial se obtuvo lo siguente
+2. Para representación gráfica y secuencial manual se obtuvo lo siguente.<br>
 
 
 
@@ -40,6 +40,22 @@ Para representación gráfica y secuencial se obtuvo lo siguente
 Para la respuesta gráfica de la convolución se obtuvo
 
 <img width="465" height="853" alt="image" src="https://github.com/Lau-W52Hz/Laboratorio_Se-ales_2026/blob/main/convolucion.jpeg"/>
+
+Para la obtención de una gráfica mas precisa se opto por realizar las escalas de 15 hasta llegar a 300,lo que produce aproximadamente 19 divisiones para cubrir el valor máximo obtenido de la señal, que es 273.
+
+3.Encontrar la señal 𝑦[𝑛] resultante de la convolución usando Python.<br>
+
+Haciendo uso de Pyton se obtuvo los siguentes resultados:
+'''
+h(n) = [5 6 0 0 8 5 4 5 6 0 0 5 9 2]
+x(n) = [1 0 7 8 3 6 7 2 2 9 1 0 3 2 9 3 7 8 7 9]
+
+==================================================
+
+Resultado De La Convolución:
+y(n) = {5, 6, 35, 82, 71, 53, 131, 156, 120, 187, 239, 149, 126, 226, 273, 233, 211, 267, 268, 221, 256, 258, 220, 209, 192, 188, 187, 134, 109, 121, 124, 95, 18}
+
+'''
 
 
 ### ALGORITMO 
