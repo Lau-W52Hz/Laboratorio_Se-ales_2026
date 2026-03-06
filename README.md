@@ -62,7 +62,11 @@ Los resultados de la convolucion obtenidos por Pyton son iguales a los calculado
 ### ALGORITMO 
 <img width="465" height="853" alt="image" src="https://github.com/Lau-W52Hz/Laboratorio_Se-ales_2026/blob/main/grafica%20diagrama%20de%20flujo%20simple%20blanco.png"/>
 ### CODIGO
-
+```
+import numpy as np
+import matplotlib.pyplot as plt
+```
+Impostación de las librerias para poder graficar señales y realizar cálculos Matematicos
 ## PARTE B
 En esta parte de la práctica se trabajará con dos señales discretas definidas mediante funciones trigonométricas: una señal coseno y una señal seno. A partir del período de muestreo dado por la guia, se calcularán los valores de ambas señales para un conjunto determinado de muestras.<br>
 Posteriormente, se aplicará la correlación cruzada entre las dos señales con el objetivo de analizar el grado de similitud entre ellas y observar cómo cambia esta relación cuando una señal se desplaza respecto a la otra.<br>
