@@ -56,10 +56,11 @@ Resultado De La Convolución:
 y(n) = {5, 6, 35, 82, 71, 53, 131, 156, 120, 187, 239, 149, 126, 226, 273, 233, 211, 267, 268, 221, 256, 258, 220, 209, 192, 188, 187, 134, 109, 121, 124, 95, 18}
 
 ```
-Los resultados de la convolucion obtenidos por Pyton son iguales a los calculados manualmente, demostrando asi una fiabilidad de similitud entre las gráficas manuales y las genradas por Pyton
-4.Encontrar la representación gráfica y secuencial usando Python..<br>
+Los resultados de la convolucion obtenidos por Pyton son iguales a los calculados manualmente, demostrando asi una fiabilidad de similitud entre las gráficas manuales y las genradas por Pyton<br>
+4.Encontrar la representación gráfica y secuencial usando Python.<br>
 <img width="465" height="853" alt="image" src="https://github.com/Lau-W52Hz/Laboratorio_Se-ales_2026/blob/main/convolucionpyton.png"/>
 ### ALGORITMO 
+
 
 ### CODIGO
 
