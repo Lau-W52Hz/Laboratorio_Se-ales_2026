@@ -37,6 +37,10 @@ Para representación gráfica y secuencial se obtuvo lo siguente
 <img width="465" height="853" alt="image" src="https://github.com/Lau-W52Hz/Laboratorio_Se-ales_2026/blob/main/h.jpeg"/>
 <img width="465" height="853" alt="image" src="https://github.com/Lau-W52Hz/Laboratorio_Se-ales_2026/blob/main/x.jpeg"/>
 
+Para la respuesta gráfica de la convolución se obtuvo
+
+<img width="465" height="853" alt="image" src="https://github.com/Lau-W52Hz/Laboratorio_Se-ales_2026/blob/main/x.jpeg"/>
+
 
 ### ALGORITMO 
 
