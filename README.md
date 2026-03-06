@@ -398,7 +398,10 @@ El histograma muestra la distribución de las frecuencias obtenidas del análisi
 Trabajado en Jupyter: http://localhost:8888/doc/tree/lab2pds.ipynb 
 
 # PREGUNTAS
-
+## 1.¿Qué es la convolución y para qué se utiliza en el procesamiento de señales?
+ La convolución es una operación matemática que permite determinar la salida de un sistema cuando se conoce su respuesta al impulso h(n) y una señal de entrada x(n), En procesamiento digital de señales es usado para identificar como un sistema puede llegar a modificar una señal de entrada, esto es útil para analizar  y filtrar señales fisiológicas provenientes de equipos médicos, como por ejemplo un electrocardiograma o un electroencefalograma,  En estos casos la convolución permite eliminar ruido y mejorar la calidad de la señal aplicando filtros digitales, esto es muy útil ya que esto  facilita un correcto diagnóstico al personal de la salud.
+## 2. ¿Cuál es la diferencia entre convolución y correlación?
+La correlación está encargada de medir el grado de similitud entre dos señales cuando una se desplaza respecto a la otra,  la mayor diferencia que puede tener en comparación con la convolución es que la convolución es utilizada para obtener la respuesta a un sistema ante una señal de entrada, mientras que la correlación es más utilizada para comparar señales y medir su similitud, Un uso de la correlación es que permite en los electrocardiogramas identificar características determinantes como la repetición de complejos cardíacos, en contraste la convolución se enfoca en modelar un sistema que procesa una señal para mejorar la interpretación de una señal biológica mediante dispositivos biomédicos.
 ## 3. ¿Para qué sirve la correlación cruzada?
 La correlación cruzada es una herramienta ampliamente utilizada en el procesamiento digital de señales para analizar la relación entre dos señales. Permite detectar similitudes, identificar retardos temporales, sincronizar señales y reconocer patrones. En aplicaciones biomédicas puede utilizarse para comparar señales fisiológicas como electrocardiogramas, electroencefalogramas o señales musculares.<br>
 ## CONCLUSIONES
