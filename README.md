@@ -34,8 +34,8 @@ El resultado fue el siguiente:
 
 
 
-<img width="465" height="853" alt="image" src="https://github.com/Lau-W52Hz/Laboratorio_Se-ales_2026/blob/main/h.jpeg"/>
-<img width="465" height="853" alt="image" src="https://github.com/Lau-W52Hz/Laboratorio_Se-ales_2026/blob/main/x.jpeg"/>
+<img width="465" height="853" alt="image" src="https://github.com/Lau-W52Hz/Laboratorio_Se-ales_2026/blob/main/h(n).jpeg"/>
+<img width="465" height="853" alt="image" src="https://github.com/Lau-W52Hz/Laboratorio_Se-ales_2026/blob/main/x(n).jpeg"/>
 
 Para la respuesta gráfica de la convolución se obtuvo
 
