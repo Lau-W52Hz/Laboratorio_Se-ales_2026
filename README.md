@@ -28,7 +28,7 @@ h(n)={5, 6, 0, 0, 8, 5, 4, 5, 6, 0, 0, 5, 9, 2}<br>
 
 El resultado fue el siguiente:
 
-<img width="465" height="853" alt="image" src="https://github.com/Lau-W52Hz/Laboratorio_Se-ales_2026/blob/main/Convolucionmanual.jpeg "/>
+<img width="465" height="853" alt="image" src="https://github.com/Lau-W52Hz/Laboratorio_Se-ales_2026/blob/main/manualcon.jpeg "/>
 
 2. Para representación gráfica y secuencial manual se obtuvo lo siguente.<br>
 
