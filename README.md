@@ -407,10 +407,10 @@ La correlación cruzada es una herramienta ampliamente utilizada en el procesami
 ## CONCLUSIONES
 - Durante el desarrollo del laboratorio se comprobó la importancia de la evolución como una herramienta fundamental en el procesamiento  digital de señales,  ya que permite obtener una señal de salida a partir de una señal de entrada y una señal de impulso, al comparar los resultados obtenidos de manera manual con los obtenidos en python se comprobó que ambos son iguales lo que permite intuir que el proceso matemático se aplicó de manera óptima.<br>
 
--Para el análisis de la correlación y la correlación cruzada se permitió entender que al poder medir el grado de similitud entre dos señales y poder observar desplazamientos entre ellas es bastante útil en el entorno biomédico, ya que permite identificar patrones o desfases entre señales obtenidas.<br>
+- Para el análisis de la correlación y la correlación cruzada se permitió entender que al poder medir el grado de similitud entre dos señales y poder observar desplazamientos entre ellas es bastante útil en el entorno biomédico, ya que permite identificar patrones o desfases entre señales obtenidas.<br>
 
 
--Al hacer la aplicación de la transformada de fourier y la densidad espectral de potencia, se dio la posibilidad de analizar la señal en el dominio de la frecuencia, para el caso aplicado de la señal simulada de electrooculografía  se registró que una gran parte de la energía puede llegar a concentrarse en las frecuencias más bajas,  lo cual coincide con los movimientos oculares.<br>
+- Al hacer la aplicación de la transformada de fourier y la densidad espectral de potencia, se dio la posibilidad de analizar la señal en el dominio de la frecuencia, para el caso aplicado de la señal simulada de electrooculografía  se registró que una gran parte de la energía puede llegar a concentrarse en las frecuencias más bajas,  lo cual coincide con los movimientos oculares.<br>
 
 
 
