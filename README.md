@@ -60,8 +60,8 @@ Los resultados de la convolucion obtenidos por Pyton son iguales a los calculado
 4.Encontrar la representación gráfica y secuencial usando Python.<br>
 <img width="465" height="853" alt="image" src="https://github.com/Lau-W52Hz/Laboratorio_Se-ales_2026/blob/main/convolucionpyton.png"/>
 ### ALGORITMO 
-
-
+<img width="465" height="853" alt="image" src="
+https://github.com/Lau-W52Hz/Laboratorio_Se-ales_2026/blob/main/grafica%20diagrama%20de%20flujo%20simple%20blanco.png"/>
 ### CODIGO
 
 ## PARTE B
