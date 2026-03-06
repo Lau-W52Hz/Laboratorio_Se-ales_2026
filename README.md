@@ -23,8 +23,8 @@ Para la primera parte del laboratorio , teniendo en cuenta el sistema h[n] = {d�
 
 Para esta parte del laboratorio se juntaron los 2 números de cédula de las dos integrantes de manera consecutiva para la definición de la señal  x[n], de igual manera se realizó el mismo procedimiento con los códigos estudiantiles para los valores de h[n]. <br>
 
-x[n]= {1, 0, 7, 8, 3, 6, 7, 2, 2, 9, 1, 0, 3, 2, 9, 3, 7, 8, 7, 9}<br>
-h[n]={5, 6, 0, 0, 8, 5, 4, 5, 6, 0, 0, 5, 9, 2}<br>
+x(n)= {1, 0, 7, 8, 3, 6, 7, 2, 2, 9, 1, 0, 3, 2, 9, 3, 7, 8, 7, 9}<br>
+h(n)={5, 6, 0, 0, 8, 5, 4, 5, 6, 0, 0, 5, 9, 2}<br>
 
 El resultado fue el siguiente:
 
@@ -61,12 +61,22 @@ Los resultados de la convolucion obtenidos por Pyton son iguales a los calculado
 <img width="465" height="853" alt="image" src="https://github.com/Lau-W52Hz/Laboratorio_Se-ales_2026/blob/main/convolucionpyton.png"/>
 ### ALGORITMO 
 <img width="465" height="853" alt="image" src="https://github.com/Lau-W52Hz/Laboratorio_Se-ales_2026/blob/main/grafica%20diagrama%20de%20flujo%20simple%20blanco.png"/>
+
 ### CODIGO
 ```
 import numpy as np
+
 import matplotlib.pyplot as plt
 ```
+
 Impostación de las librerias para poder graficar señales y realizar cálculos Matematicos
+```
+ h = np.array([5, 6, 0, 0, 8, 5, 4, 5, 6, 0, 0, 5, 9, 2])
+x = np.array([1, 0, 7, 8, 3, 6, 7, 2, 2, 9, 1, 0, 3, 2, 9, 3, 7, 8, 7, 9])
+y = np.convolve(h, x, mode='full')
+```
+Se realizo la definición de h(n) y x(n), y su convolución se realizo con np.convolve y al usar el modo=full significa que se realiza toda la operación mencionada
+
 ## PARTE B
 En esta parte de la práctica se trabajará con dos señales discretas definidas mediante funciones trigonométricas: una señal coseno y una señal seno. A partir del período de muestreo dado por la guia, se calcularán los valores de ambas señales para un conjunto determinado de muestras.<br>
 Posteriormente, se aplicará la correlación cruzada entre las dos señales con el objetivo de analizar el grado de similitud entre ellas y observar cómo cambia esta relación cuando una señal se desplaza respecto a la otra.<br>
